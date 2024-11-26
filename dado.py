@@ -3,7 +3,7 @@ import pandas as pd
 from gurobipy import GRB
 from concurrent.futures import ThreadPoolExecutor, Future, wait
 from multiprocessing import cpu_count
-from model import *
+import model
 from time import perf_counter
 import unmarshalling
 import argparse
